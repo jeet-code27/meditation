@@ -122,8 +122,8 @@ export default function Footer() {
                 </div>
 
                 {/* Bottom Copyright */}
-                <div className="mt-20 text-center text-xs text-white/40 font-light border-t border-white/10 pt-8 relative z-10">
-                    <p>&copy; WeMeditate, {currentYear}</p>
+                <div className="mt-20 text-right text-xs text-white/40 font-light border-t border-white/10 pt-8 relative z-10">
+                    <p>&copy; Copyright ©  {currentYear} | Powered by <Link href="https://www.seocialmedia.in/" target="_blank" rel="noopener noreferrer"> SEOcial Media Solutions</Link></p>
                 </div>
 
                 {/* Flower Placeholder - Center Bottom */}

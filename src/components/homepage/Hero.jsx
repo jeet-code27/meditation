@@ -7,7 +7,7 @@ export default function Hero() {
   return (
     <section className="relative w-full h-screen">
       <Image
-        src="/images/hero.webp  "
+        src="/images/hero.webp"
         alt="Meditation"
         fill
         priority
