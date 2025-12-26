@@ -99,7 +99,7 @@ export default function MeditationHeader() {
               </li>
               <li>
                 <Link
-                  href="/services"
+                  href="/"
                   className="text-base font-light hover:text-white/80 transition-colors"
                 >
                   Services
@@ -107,7 +107,7 @@ export default function MeditationHeader() {
               </li>
               <li>
                 <Link
-                  href="/blog"
+                  href="/"
                   className="text-base font-light hover:text-white/80 transition-colors"
                 >
                   Blog
@@ -166,9 +166,11 @@ export default function MeditationHeader() {
               {[
                 { href: '/', label: 'Home', delay: '100ms' },
                 { href: '/about', label: 'About', delay: '200ms' },
-                { href: '/services', label: 'Services', delay: '300ms' },
-                { href: '/blog', label: 'Blogs', delay: '400ms' },
-                { href: '/contact', label: 'Contact Us', delay: '500ms' },
+                { href: '/', label: 'Services', delay: '300ms' },
+                { href: '/', label: 'Blogs', delay: '400ms' },
+                { href: '/faq', label: 'FAQ', delay: '500ms' },
+                { href: '/', label: 'Contact Us', delay: '600ms' },
+
               ].map((item, index) => (
                 <li
                   key={item.href}
@@ -220,7 +222,7 @@ export default function MeditationHeader() {
             </li>
             <li>
               <Link
-                href="/services"
+                href="/"
                 className={`text-base font-light transition-colors ${isScrolled ? 'hover:text-gray-600' : 'hover:text-white/80'}`}
               >
                 Services
@@ -228,7 +230,7 @@ export default function MeditationHeader() {
             </li>
             <li>
               <Link
-                href="/blog"
+                href="/"
                 className={`text-base font-light transition-colors ${isScrolled ? 'hover:text-gray-600' : 'hover:text-white/80'}`}
               >
                 Blog
