@@ -114,7 +114,7 @@ export default function YogaFAQPage() {
                         transition={{ duration: 0.6, delay: 0.1, ease: "easeOut" }}
                         className="text-4xl md:text-5xl lg:text-6xl font-bold text-[#1A2E05] mb-6 font-serif"
                     >
-                        FAQ Page
+                        FAQ
                     </motion.h1>
                     <motion.p
                         initial={{ opacity: 0, y: 20 }}
